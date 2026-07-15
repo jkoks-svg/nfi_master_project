@@ -285,3 +285,4 @@ Reproducing a particular thesis result requires the corresponding NFI dataset an
 ## Citation
 
 Koks, J. (2026). *Statistical analysis of replicate measurements of DNA mixtures*. MSc thesis, Delft University of Technology, in collaboration with the Netherlands Forensic Institute.
+Contact: jortkoks@outlook.com
