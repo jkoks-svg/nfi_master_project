@@ -52,7 +52,7 @@ This research used **DNAStatistX CLI 2.5.0-DES-700, build 202601191653**. The co
 dnastatistx-cli-2.5.0-DES-700-202601191653.jar
 ```
 
-The DNAStatistX JAR is owned by the Netherlands Forensic Institute (NFI) and must not be distributed through this GitHub repository. If the JAR is present in a local working copy, remove it or exclude it before pushing to GitHub. Access can be requested from the NFI.
+The DNAStatistX JAR is owned by the Netherlands Forensic Institute (NFI). Access can be requested from the NFI.
 
 After obtaining the JAR, place it in `resources/` under the filename above. If the supplied filename is different, update `dnastatistx.jar_file` in `resources/config.yaml`.
 
