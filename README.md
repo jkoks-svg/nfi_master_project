@@ -9,6 +9,7 @@ This is research code and a mathematical proof of concept. It is not an operatio
 ## Research documents
 
 - [MSc thesis](MSc_Thesis_Jort_Koks.pdf) - full background, methods, results, limitations, and conclusions.
+- [Thesis reproducibility guide](THESIS_REPRODUCIBILITY.md) - chapter-by-chapter mapping of thesis results, figures, and tables to the scripts and data needed to reproduce them.
 - [Thesis presentation](Presentatie%202026-06-24%20final.pdf) - presentation defended on 24 June 2026.
 - [PPF6C dataset and mixture-generation overview](2p-5p%20PPF6C%20dataset_2024_Mixture%20generation.docx) - mixture types, donor combinations, replicate structure, and filename convention for the full research dataset.
 
@@ -35,6 +36,7 @@ resources/
     reference_file.txt           Reference profile
 
 MSc_Thesis_Jort_Koks.pdf
+THESIS_REPRODUCIBILITY.md
 Presentatie 2026-06-24 final.pdf
 2p-5p PPF6C dataset_2024_Mixture generation.docx
 README.md
