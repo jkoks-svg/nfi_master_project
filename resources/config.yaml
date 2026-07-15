@@ -1,0 +1,44 @@
+dnastatistx:
+  jar_file: dnastatistx-cli-2.5.0-DES-700-202601191653.jar #dnastatistx-cli-2.4.3-SNAPSHOT-20250904-1650.jar
+  frequencies_file: NFI_frequencies.csv
+  model: model-euroformix  # model-mixcal, model-lrmix
+  kit: PPF6C  # GlobalFiler
+  method: method-maximize   # method-integrate
+  threads: 1
+  thresholds:
+    AMEL: 95
+    vWA: 85
+    CSF1PO: 140
+    FGA: 95
+    TPOX: 85
+    D10S1248: 95
+    D12S391: 135
+    D13S317: 95
+    D16S539: 140
+    D18S51: 140
+    D19S433: 135
+    D1S1656: 95
+    D21S11: 85
+    D22S1045: 135
+    D2S1338: 140
+    D2S441: 95
+    D3S1358: 95
+    D5S818: 85
+    D7S820: 85
+    D8S1179: 135
+    TH01: 85
+    SE33: 135
+    Penta E: 95
+    Penta D: 140
+    DEFAULT: 95
+  N_CONTRIBUTORS: 2
+  coancestry: "0.0"
+  frac_threshold: "*=0.03"
+  dropin_prob: "1.0E-6"
+  dropin_lambda: "1.0E-6"
+  random_seed: 9103477288049225897
+  degradation: True
+RARE_FREQ: 3e-4
+H2_FILTER_THRESHOLD: 1e-9 
+DELETE_INTERMEDIATE_FILES: True
+kit_properties_txt: kit_properties_txt.txt

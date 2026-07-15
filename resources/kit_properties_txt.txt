@@ -1,0 +1,547 @@
+<KitProperties>
+    <Kit name="PPF6C">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4.27" offset="59.52" />
+        <Locus name="D1S1656" period="4" slope="4.08" offset="121.8" />
+        <Locus name="D2S441" period="4" slope="4.11" offset="179.87" />
+        <Locus name="D10S1248" period="4" slope="3.98" offset="224.88" />
+        <Locus name="D13S317" period="4" slope="4.08" offset="285.67" />
+        <Locus name="Penta E" period="5" slope="4.87" offset="344.56" />
+        <Locus name="D16S539" period="4" slope="4.34" offset="59.02" />
+        <Locus name="D18S51" period="4" slope="4.11" offset="103.99" />
+        <Locus name="D2S1338" period="4" slope="4.06" offset="182.51" />
+        <Locus name="CSF1PO" period="4" slope="4.07" offset="297.45" />
+        <Locus name="Penta D" period="5" slope="5.08" offset="366.87" />
+        <Locus name="TH01" period="4" slope="4.28" offset="54.43" />
+        <Locus name="vWA" period="4" slope="4.12" offset="84.52" />
+        <Locus name="D21S11" period="4" slope="4.08" offset="105.83" />
+        <Locus name="D7S820" period="4" slope="4.02" offset="249.62" />
+        <Locus name="D5S818" period="4" slope="4.04" offset="298.77" />
+        <Locus name="TPOX" period="4" slope="4.02" offset="378.66" />
+        <Locus name="D8S1179" period="4" slope="4.33" offset="41.97" />
+        <Locus name="D12S391" period="4" slope="4.1" offset="77.99" />
+        <Locus name="D19S433" period="4" slope="4.02" offset="172.24" />
+        <Locus name="SE33" period="4" slope="4.06" offset="256.52" />
+        <Locus name="D22S1045" period="3" slope="3.05" offset="413.97" />
+        <Locus name="DYS391" ignore="true" period="4" slope="4.31" offset="59.95" />
+        <Locus name="FGA" period="4" slope="4.1" offset="86.02" />
+        <Locus name="DYS576" ignore="true" period="4" slope="3.95" offset="266.75" />
+        <Locus name="DYS570" ignore="true" period="4" slope="3.91" offset="353.92" />
+    </Kit>
+    <Kit name="IDseek OmniSTR"> <!-- Amplification efficiencies based on 99 high-quality samples sequenced at NFI -->
+        <Locus name="AMEL" ignore="true" amplificationEfficiency="1.04" />
+        <Locus name="AMEL-X" ignore="true" amplificationEfficiency="1.05" />
+        <Locus name="AMEL-Y" ignore="true" amplificationEfficiency="1.02" />
+        <Locus name="D1S1656" period="4" slope="4" offset="90" amplificationEfficiency="1.11" />
+        <Locus name="TPOX" period="4" slope="4" offset="57" amplificationEfficiency="1.15" />
+        <Locus name="D2S441" period="4" slope="4" offset="87" amplificationEfficiency="1.37" />
+        <Locus name="D2S1338" period="4" slope="4" offset="109" amplificationEfficiency="1.09" />
+        <Locus name="D3S1358" period="4" slope="4" offset="61" amplificationEfficiency="1.33" />
+        <Locus name="D4S2408" period="4" slope="4" offset="89" amplificationEfficiency="0.56" />
+        <Locus name="FGA" period="4" slope="4" offset="78" amplificationEfficiency="0.87" />
+        <Locus name="D5S818" period="4" slope="4" offset="101" amplificationEfficiency="0.66" />
+        <Locus name="CSF1PO" period="4" slope="4" offset="96" amplificationEfficiency="0.93" />
+        <Locus name="SE33" period="4" slope="4" offset="185" amplificationEfficiency="2.16" />
+        <Locus name="D6S1043" period="4" slope="4" offset="70" amplificationEfficiency="1.04" />
+        <Locus name="D7S820" period="4" slope="4" offset="134" amplificationEfficiency="0.96" />
+        <Locus name="D8S1179" period="4" slope="4" offset="79" amplificationEfficiency="0.84" />
+        <Locus name="D9S1122" period="4" slope="4" offset="69" amplificationEfficiency="0.86" />
+        <Locus name="D10S1248" period="4" slope="4" offset="68" amplificationEfficiency="1.00" />
+        <Locus name="TH01" period="4" slope="4" offset="56" amplificationEfficiency="2.44" />
+        <Locus name="vWA" period="4" slope="4" offset="98" amplificationEfficiency="0.56" />
+        <Locus name="D12S391" period="4" slope="4" offset="64" amplificationEfficiency="0.87" />
+        <Locus name="D13S317" period="4" slope="4" offset="101" amplificationEfficiency="1.20" />
+        <Locus name="Penta E" period="5" slope="5" offset="57" amplificationEfficiency="0.64" />
+        <Locus name="D16S539" period="4" slope="4" offset="183" amplificationEfficiency="0.67" />
+        <Locus name="D17S1301" period="4" slope="4" offset="87" amplificationEfficiency="0.82" />
+        <Locus name="D18S51" period="4" slope="4" offset="96" amplificationEfficiency="0.74" />
+        <Locus name="D19S433" period="4" slope="4" offset="73" amplificationEfficiency="1.14" />
+        <Locus name="D20S482" period="4" slope="4" offset="64" amplificationEfficiency="0.77" />
+        <Locus name="D21S11" period="4" slope="4" offset="94" amplificationEfficiency="0.79" />
+        <Locus name="Penta D" period="5" slope="5" offset="111" amplificationEfficiency="0.62" />
+        <Locus name="D22S1045" period="3" slope="3" offset="74" amplificationEfficiency="0.85" />
+        <Locus name="DYS391" ignore="true" period="4" slope="4" offset="115" amplificationEfficiency="0.87" />
+    </Kit>
+    <Kit name="NGM">
+        <Locus name="D10S1248" period="4" slope="4" offset="45" />
+        <Locus name="vWA" period="4" slope="4" offset="110" />
+        <Locus name="D16S539" period="4" slope="4" offset="208.5" />
+        <Locus name="D2S1338" period="4" slope="4" offset="229.5" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D8S1179" period="4" slope="4" offset="93" />
+        <Locus name="D21S11" period="4" slope="4" offset="89" />
+        <Locus name="D18S51" period="4" slope="4" offset="235" />
+        <Locus name="D22S1045" period="3" slope="3" offset="56" />
+        <Locus name="D19S433" period="4" slope="4" offset="91.3" />
+        <Locus name="TH01" period="4" slope="4" offset="165" />
+        <Locus name="FGA" period="4" slope="4" offset="162" />
+        <Locus name="D2S441" period="4" slope="4" offset="44" />
+        <Locus name="D3S1358" period="4" slope="4" offset="87" />
+        <Locus name="D1S1656" period="4" slope="4" offset="139" />
+        <Locus name="D12S391" period="4" slope="4" offset="173" />
+    </Kit>
+    <Kit name="NGMSElect">
+        <Locus name="D10S1248" period="4" slope="4" offset="44" />
+        <Locus name="vWA" period="4" slope="4" offset="108" />
+        <Locus name="D16S539" period="4" slope="4" offset="208" />
+        <Locus name="D2S1338" period="4" slope="4" offset="228" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D8S1179" period="4" slope="4" offset="91" />
+        <Locus name="D21S11" period="4" slope="4" offset="87" />
+        <Locus name="D18S51" period="4" slope="4" offset="234" />
+        <Locus name="D22S1045" period="3" slope="3" offset="64" />
+        <Locus name="D19S433" period="4" slope="4" offset="89" />
+        <Locus name="TH01" period="4" slope="4" offset="163" />
+        <Locus name="FGA" period="4" slope="4" offset="162" />
+        <Locus name="D2S441" period="4" slope="4" offset="42" />
+        <Locus name="D3S1358" period="4" slope="4" offset="86" />
+        <Locus name="D1S1656" period="4" slope="4" offset="137" />
+        <Locus name="D12S391" period="4" slope="4" offset="173" />
+        <Locus name="SE33" period="4" slope="4" offset="294" />
+    </Kit>
+    <Kit name="NGMSelect Express">
+        <Locus name="D10S1248" period="4" slope="4" offset="45" />
+        <Locus name="vWA" period="4" slope="4" offset="110" />
+        <Locus name="D16S539" period="4" slope="4" offset="208.5" />
+        <Locus name="D2S1338" period="4" slope="4" offset="229.5" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D8S1179" period="4" slope="4" offset="93" />
+        <Locus name="D21S11" period="4" slope="4" offset="89" />
+        <Locus name="D18S51" period="4" slope="4" offset="235" />
+        <Locus name="D22S1045" period="3" slope="3" offset="56" />
+        <Locus name="D19S433" period="4" slope="4" offset="91.3" />
+        <Locus name="TH01" period="4" slope="4" offset="165" />
+        <Locus name="FGA" period="4" slope="4" offset="162" />
+        <Locus name="D2S441" period="4" slope="4" offset="44" />
+        <Locus name="D3S1358" period="4" slope="4" offset="87" />
+        <Locus name="D1S1656" period="4" slope="4" offset="139" />
+        <Locus name="D12S391" period="4" slope="4" offset="173" />
+        <Locus name="SE33" period="4" slope="4" offset="282.5" />
+    </Kit>
+    <Kit name="GlobalFiler">
+        <Locus name="D3S1358" period="4" slope="4" offset="60.5" />
+        <Locus name="vWA" period="4" slope="4" offset="113" />
+        <Locus name="D16S539" period="4" slope="4" offset="207.5" />
+        <Locus name="CSF1PO" period="4" slope="4" offset="259" />
+        <Locus name="TPOX" period="4" slope="4" offset="318.5" />
+        <Locus name="Yindel" ignore="true" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D8S1179" period="4" slope="4" offset="94.5" />
+        <Locus name="D21S11" period="4" slope="4" offset="87.5" />
+        <Locus name="D18S51" period="4" slope="4" offset="233.5" />
+        <Locus name="DYS391" ignore="true" period="4" slope="4" offset="337.5" />
+        <Locus name="D2S441" period="4" slope="4" offset="44.5" />
+        <Locus name="D19S433" period="4" slope="4" offset="94.5" />
+        <Locus name="TH01" period="4" slope="4" offset="163" />
+        <Locus name="FGA" period="4" slope="4.02" offset="171.14" />
+        <Locus name="D22S1045" period="3" slope="3" offset="64.5" />
+        <Locus name="D5S818" period="4" slope="4" offset="111.5" />
+        <Locus name="D13S317" period="4" slope="4" offset="179" />
+        <Locus name="D7S820" period="4" slope="4" offset="238.5" />
+        <Locus name="SE33" period="4" slope="4" offset="290" />
+        <Locus name="D10S1248" period="4" slope="4" offset="54" />
+        <Locus name="D1S1656" period="4" slope="4" offset="124" />
+        <Locus name="D12S391" period="4" slope="4" offset="160.5" />
+        <Locus name="D2S1338" period="4" slope="4" offset="237.5" />
+    </Kit>
+    <Kit name="24plex">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="TH01" period="4" slope="4" offset="75" />
+        <Locus name="D3S1358" period="4" slope="4" offset="111" />
+        <Locus name="vWA" period="4" slope="4" offset="199" />
+        <Locus name="D21S11" period="4" slope="4" offset="235" />
+        <Locus name="TPOX" period="4" slope="4" offset="65" />
+        <Locus name="DYS391" ignore="true" period="4" slope="4" offset="102" />
+        <Locus name="D1S1656" period="4" slope="4" offset="116" />
+        <Locus name="D12S391" period="4" slope="4" offset="148" />
+        <Locus name="SE33" period="4" slope="4" offset="265" />
+        <Locus name="D10S1248" period="4" slope="4" offset="56" />
+        <Locus name="D22S1045" period="3" slope="3" offset="126" />
+        <Locus name="D19S433" period="4" slope="4" offset="196" />
+        <Locus name="D8S1179" period="4" slope="4" offset="260" />
+        <Locus name="D2S1338" period="4" slope="4" offset="325" />
+        <Locus name="D2S441" period="4" slope="4" offset="52" />
+        <Locus name="D18S51" period="4" slope="4" offset="115" />
+        <Locus name="FGA" period="4" slope="4" offset="239" />
+        <Locus name="QS1" ignore="true" />
+        <Locus name="D16S539" period="4" slope="4" offset="70" />
+        <Locus name="CSF1PO" period="4" slope="4" offset="139" />
+        <Locus name="D13S317" period="4" slope="4" offset="204" />
+        <Locus name="D5S818" period="4" slope="4" offset="268" />
+        <Locus name="D7S820" period="4" slope="4" offset="328" />
+        <Locus name="QS2" ignore="true" />
+    </Kit>
+    <Kit name="ESSPlex">
+        <Locus name="D21S11" period="4" slope="4" offset="234" />
+        <Locus name="D16S539" period="4" slope="4" offset="66" />
+        <Locus name="D1S1656" period="4" slope="4" offset="113" />
+        <Locus name="D19S433" period="4" slope="4" offset="185" />
+        <Locus name="D8S1179" period="4" slope="4" offset="256" />
+        <Locus name="D2S1338" period="4" slope="4" offset="320" />
+        <Locus name="D10S1248" period="4" slope="4" offset="51" />
+        <Locus name="D22S1045" period="3" slope="3" offset="123" />
+        <Locus name="D12S391" period="4" slope="4" offset="161" />
+        <Locus name="FGA" period="4" slope="4" offset="235" />
+        <Locus name="D2S441" period="4" slope="4" offset="50" />
+        <Locus name="D18S51" period="4" slope="4" offset="115" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="TH01" period="4" slope="4" offset="76" />
+        <Locus name="D3S1358" period="4" slope="4" offset="111" />
+        <Locus name="vWA" period="4" slope="4" offset="198" />
+    </Kit>
+    <Kit name="ESSplex Plus">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="TH01" period="4" slope="4" offset="76" />
+        <Locus name="D3S1358" period="4" slope="4" offset="111" />
+        <Locus name="vWA" period="4" slope="4" offset="198" />
+        <Locus name="D21S11" period="4" slope="4" offset="234" />
+        <Locus name="D16S539" period="4" slope="4" offset="66" />
+        <Locus name="D1S1656" period="4" slope="4" offset="113" />
+        <Locus name="D19S433" period="4" slope="4" offset="185" />
+        <Locus name="D8S1179" period="4" slope="4" offset="256" />
+        <Locus name="D2S1338" period="4" slope="4" offset="320" />
+        <Locus name="D10S1248" period="4" slope="4" offset="51" />
+        <Locus name="D22S1045" period="3" slope="3" offset="123" />
+        <Locus name="D12S391" period="4" slope="4" offset="161" />
+        <Locus name="FGA" period="4" slope="4" offset="235" />
+        <Locus name="D2S441" period="4" slope="4" offset="50" />
+        <Locus name="D18S51" period="4" slope="4" offset="115" />
+    </Kit>
+    <Kit name="ESSplex SE Plus">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="TH01" period="4" slope="4" offset="76" />
+        <Locus name="D3S1358" period="4" slope="4" offset="111" />
+        <Locus name="vWA" period="4" slope="4" offset="198" />
+        <Locus name="D21S11" period="4" slope="4" offset="234" />
+        <Locus name="D16S539" period="4" slope="4" offset="67" />
+        <Locus name="D1S1656" period="4" slope="4" offset="115" />
+        <Locus name="D19S433" period="4" slope="4" offset="185" />
+        <Locus name="SE33" period="4" slope="4" offset="254" />
+        <Locus name="D10S1248" period="4" slope="4" offset="51" />
+        <Locus name="D22S1045" period="3" slope="3" offset="123" />
+        <Locus name="D12S391" period="4" slope="4" offset="146" />
+        <Locus name="D8S1179" period="4" slope="4" offset="256" />
+        <Locus name="D2S1338" period="4" slope="4" offset="320" />
+        <Locus name="D2S441" period="4" slope="4" offset="51" />
+        <Locus name="D18S51" period="4" slope="4" offset="117" />
+        <Locus name="FGA" period="4" slope="4" offset="236" />
+    </Kit>
+    <Kit name="ESSplex SE QS">
+        <Locus name="QS1" ignore="true" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="TH01" period="4" slope="4" offset="75" />
+        <Locus name="D3S1358" period="4" slope="4" offset="111" />
+        <Locus name="vWA" period="4" slope="4" offset="199" />
+        <Locus name="D21S11" period="4" slope="4" offset="235" />
+        <Locus name="QS2" ignore="true" />
+        <Locus name="D16S539" period="4" slope="4" offset="69" />
+        <Locus name="D1S1656" period="4" slope="4" offset="116" />
+        <Locus name="D19S433" period="4" slope="4" offset="196" />
+        <Locus name="SE33" period="4" slope="4" offset="265" />
+        <Locus name="D10S1248" period="4" slope="4" offset="56" />
+        <Locus name="D22S1045" period="3" slope="3" offset="126" />
+        <Locus name="D12S391" period="4" slope="4" offset="148" />
+        <Locus name="D8S1179" period="4" slope="4" offset="260" />
+        <Locus name="D2S1338" period="4" slope="4" offset="325" />
+        <Locus name="D2S441" period="4" slope="4" offset="52" />
+        <Locus name="D18S51" period="4" slope="4" offset="115" />
+        <Locus name="FGA" period="4" slope="4" offset="237" />
+    </Kit>
+    <Kit name="Identifiler">
+        <Locus name="D8S1179" period="4" slope="4" offset="96" />
+        <Locus name="D21S11" period="4" slope="4" offset="91" />
+        <Locus name="D7S820" period="4" slope="4" offset="234" />
+        <Locus name="CSF1PO" period="4" slope="4" offset="282.63" />
+        <Locus name="D3S1358" period="4" slope="4" offset="66" />
+        <Locus name="TH01" period="4" slope="4" offset="149" />
+        <Locus name="D13S317" period="4" slope="4" offset="185.65" />
+        <Locus name="D16S539" period="4" slope="4" offset="237.3" />
+        <Locus name="D2S1338" period="4" slope="4" offset="249.31" />
+        <Locus name="D19S433" period="4" slope="4" offset="70" />
+        <Locus name="vWA" period="4" slope="4" offset="113" />
+        <Locus name="TPOX" period="4" slope="4" offset="200.99" />
+        <Locus name="D18S51" period="4" slope="4" offset="237" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D5S818" period="4" slope="4" offset="107" />
+        <Locus name="FGA" period="4" slope="4" offset="147" />
+    </Kit>
+    <Kit name="NGMDetect">
+        <Locus name="D2S1338" period="4" slope="4" offset="47.5" />
+        <Locus name="SE33" period="4" slope="4" offset="171" />
+        <Locus name="D16S539" period="4" slope="4" offset="52.5" />
+        <Locus name="D18S51" period="4" slope="3.96" offset="99.33" />
+        <Locus name="TH01" period="4" slope="4" offset="207.5" />
+        <Locus name="D12S391" period="4" slope="4" offset="226" />
+        <Locus name="D3S1358" period="4" slope="4" offset="76.5" />
+        <Locus name="FGA" period="4" slope="3.95" offset="114.57" />
+        <Locus name="Yindel" ignore="true" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="vWA" period="4" slope="4" offset="81.5" />
+        <Locus name="D21S11" period="4" slope="4" offset="102.5" />
+        <Locus name="D1S1656" period="4" slope="4" offset="231.51" />
+        <Locus name="D2S441" period="4" slope="4" offset="303.5" />
+        <Locus name="D8S1179" period="4" slope="4" offset="76" />
+        <Locus name="D19S433" period="4" slope="4" offset="149.5" />
+        <Locus name="D22S1045" period="3" slope="3" offset="224.5" />
+        <Locus name="D10S1248" period="4" slope="4" offset="271.5" />
+    </Kit>
+    <Kit name="PowerPlex16">
+        <Locus name="D3S1358" period="4" slope="4.12" offset="60.06" />
+        <Locus name="TH01" period="4" slope="3.97" offset="136.22" />
+        <Locus name="D21S11" period="4" slope="4.05" offset="101.37" />
+        <Locus name="D18S51" period="4" slope="3.9" offset="253.1" />
+        <Locus name="Penta E" period="5" slope="5.06" offset="350.19" />
+        <Locus name="D5S818" period="4" slope="4.14" offset="82.34" />
+        <Locus name="D13S317" period="4" slope="4.01" offset="142.41" />
+        <Locus name="D7S820" period="4" slope="4.05" offset="186.58" />
+        <Locus name="D16S539" period="4" slope="4" offset="240.64" />
+        <Locus name="CSF1PO" period="4" slope="4.06" offset="292.56" />
+        <Locus name="Penta D" period="5" slope="4.85" offset="356.06" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="vWA" period="4" slope="4.01" offset="82.03" />
+        <Locus name="D8S1179" period="4" slope="4.02" offset="173.41" />
+        <Locus name="TPOX" period="4" slope="3.97" offset="237.41" />
+        <Locus name="FGA" period="4" slope="4.05" offset="254.98" />
+    </Kit>
+    <Kit name="PowerPlex21">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4.29" offset="56.02" />
+        <Locus name="D1S1656" period="4" slope="4.08" offset="119.71" />
+        <Locus name="D6S1043" period="4" slope="4.09" offset="182.41" />
+        <Locus name="D13S317" period="4" slope="4.07" offset="277.11" />
+        <Locus name="Penta E" period="5" slope="4.86" offset="342.11" />
+        <Locus name="D16S539" period="4" slope="4.37" offset="55.51" />
+        <Locus name="D18S51" period="4" slope="4.13" offset="99.97" />
+        <Locus name="D2S1338" period="4" slope="4.07" offset="179.35" />
+        <Locus name="CSF1PO" period="4" slope="4.08" offset="294.32" />
+        <Locus name="Penta D" period="5" slope="5.1" offset="364.06" />
+        <Locus name="TH01" period="4" slope="4.32" offset="52.23" />
+        <Locus name="vWA" period="4" slope="4.12" offset="84.59" />
+        <Locus name="D21S11" period="4" slope="4.08" offset="105.71" />
+        <Locus name="D7S820" period="4" slope="4.03" offset="249.57" />
+        <Locus name="D5S818" period="4" slope="4.04" offset="298.64" />
+        <Locus name="TPOX" period="4" slope="4.03" offset="378.21" />
+        <Locus name="D8S1179" period="4" slope="4.36" offset="41.08" />
+        <Locus name="D12S391" period="4" slope="4.13" offset="76.28" />
+        <Locus name="D19S433" period="4" slope="4.02" offset="170.57" />
+        <Locus name="FGA" period="4" slope="3.92" offset="211.99" />
+    </Kit>
+    <Kit name="ESI17Fast">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4" offset="67" />
+        <Locus name="D19S433" period="4" slope="4" offset="141" />
+        <Locus name="D2S1338" period="4" slope="4" offset="183" />
+        <Locus name="D22S1045" period="3" slope="3" offset="285" />
+        <Locus name="D16S539" period="4" slope="4" offset="68" />
+        <Locus name="D18S51" period="4" slope="4" offset="106" />
+        <Locus name="D1S1656" period="4" slope="4" offset="190" />
+        <Locus name="D10S1248" period="4" slope="4" offset="254" />
+        <Locus name="D2S441" period="4" slope="4" offset="315" />
+        <Locus name="TH01" period="4" slope="4" offset="60" />
+        <Locus name="vWA" period="4" slope="4" offset="84" />
+        <Locus name="D21S11" period="4" slope="4" offset="107" />
+        <Locus name="D12S391" period="4" slope="4" offset="235" />
+        <Locus name="D8S1179" period="4" slope="4" offset="48" />
+        <Locus name="FGA" period="4" slope="4" offset="87" />
+        <Locus name="SE33" period="4" slope="4" offset="291" />
+    </Kit>
+    <Kit name="ESI17">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4.12" offset="61.11" />
+        <Locus name="D19S433" period="4" slope="3.94" offset="136.35" />
+        <Locus name="D2S1338" period="4" slope="4.04" offset="178.68" />
+        <Locus name="D22S1045" period="3" slope="3.05" offset="281.17" />
+        <Locus name="D16S539" period="4" slope="4.14" offset="61.3" />
+        <Locus name="D18S51" period="4" slope="4.04" offset="102.47" />
+        <Locus name="D1S1656" period="4" slope="4.09" offset="183.58" />
+        <Locus name="D10S1248" period="4" slope="3.93" offset="249.3" />
+        <Locus name="D2S441" period="4" slope="4.03" offset="309.33" />
+        <Locus name="TH01" period="4" slope="4.03" offset="58.7" />
+        <Locus name="vWA" period="4" slope="4.02" offset="84.73" />
+        <Locus name="D21S11" period="4" slope="4.03" offset="107.24" />
+        <Locus name="D12S391" period="4" slope="4.01" offset="235.06" />
+        <Locus name="D8S1179" period="4" slope="4.12" offset="47.86" />
+        <Locus name="FGA" period="4" slope="4.05" offset="88.02" />
+        <Locus name="SE33" period="4" slope="4.05" offset="295.25" />
+    </Kit>
+    <Kit name="ESX16Fast">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4" offset="67" />
+        <Locus name="TH01" period="4" slope="4" offset="140" />
+        <Locus name="D21S11" period="4" slope="4" offset="107" />
+        <Locus name="D18S51" period="4" slope="4" offset="258" />
+        <Locus name="D10S1248" period="4" slope="4" offset="51" />
+        <Locus name="D1S1656" period="4" slope="4" offset="101" />
+        <Locus name="D2S1338" period="4" slope="4" offset="157" />
+        <Locus name="D16S539" period="4" slope="4" offset="257" />
+        <Locus name="D22S1045" period="3" slope="3" offset="58" />
+        <Locus name="vWA" period="4" slope="4" offset="84" />
+        <Locus name="D8S1179" period="4" slope="4" offset="175" />
+        <Locus name="FGA" period="4" slope="4" offset="208" />
+        <Locus name="D2S441" period="4" slope="4" offset="56" />
+        <Locus name="D12S391" period="4" slope="4" offset="74" />
+        <Locus name="D19S433" period="4" slope="4" offset="171" />
+    </Kit>
+    <Kit name="ESX16">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4.12" offset="61.26" />
+        <Locus name="TH01" period="4" slope="3.96" offset="136.98" />
+        <Locus name="D21S11" period="4" slope="4.04" offset="101.96" />
+        <Locus name="D18S51" period="4" slope="3.87" offset="253.25" />
+        <Locus name="D10S1248" period="4" slope="4.11" offset="44.22" />
+        <Locus name="D1S1656" period="4" slope="4.07" offset="94.4" />
+        <Locus name="D2S1338" period="4" slope="3.96" offset="152.24" />
+        <Locus name="D16S539" period="4" slope="4.01" offset="253.31" />
+        <Locus name="D22S1045" period="3" slope="3.01" offset="57.31" />
+        <Locus name="vWA" period="4" slope="4.02" offset="84.76" />
+        <Locus name="D8S1179" period="4" slope="4.02" offset="175.51" />
+        <Locus name="FGA" period="4" slope="3.9" offset="209.19" />
+        <Locus name="D2S441" period="4" slope="4.14" offset="55.08" />
+        <Locus name="D12S391" period="4" slope="4.04" offset="76.33" />
+        <Locus name="D19S433" period="4" slope="3.96" offset="171.22" />
+    </Kit>
+    <Kit name="ESX17Fast">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4.11" offset="61.13" />
+        <Locus name="TH01" period="4" slope="3.96" offset="136.94" />
+        <Locus name="D21S11" period="4" slope="4.03" offset="102.16" />
+        <Locus name="D18S51" period="4" slope="3.89" offset="253.32" />
+        <Locus name="D10S1248" period="4" slope="4.1" offset="43.99" />
+        <Locus name="D1S1656" period="4" slope="4.06" offset="94.12" />
+        <Locus name="D2S1338" period="4" slope="3.97" offset="152.2" />
+        <Locus name="D16S539" period="4" slope="4" offset="253.14" />
+        <Locus name="D22S1045" period="3" slope="2.99" offset="57.34" />
+        <Locus name="vWA" period="4" slope="4.02" offset="84.7" />
+        <Locus name="D8S1179" period="4" slope="4.03" offset="175.32" />
+        <Locus name="FGA" period="4" slope="3.91" offset="209.26" />
+        <Locus name="D2S441" period="4" slope="4.13" offset="54.81" />
+        <Locus name="D12S391" period="4" slope="4.04" offset="76.01" />
+        <Locus name="D19S433" period="4" slope="3.97" offset="171.27" />
+        <Locus name="SE33" period="4" slope="4.05" offset="252.77" />
+    </Kit>
+    <Kit name="ESX17">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4.11" offset="61.12" />
+        <Locus name="TH01" period="4" slope="3.96" offset="136.93" />
+        <Locus name="D21S11" period="4" slope="4.03" offset="102.14" />
+        <Locus name="D18S51" period="4" slope="3.89" offset="253.36" />
+        <Locus name="D10S1248" period="4" slope="4.1" offset="43.99" />
+        <Locus name="D1S1656" period="4" slope="4.06" offset="94.12" />
+        <Locus name="D2S1338" period="4" slope="3.97" offset="152.2" />
+        <Locus name="D16S539" period="4" slope="4" offset="253.14" />
+        <Locus name="D22S1045" period="3" slope="2.99" offset="57.34" />
+        <Locus name="vWA" period="4" slope="4.02" offset="84.69" />
+        <Locus name="D8S1179" period="4" slope="4.03" offset="175.29" />
+        <Locus name="FGA" period="4" slope="3.91" offset="209.27" />
+        <Locus name="D2S441" period="4" slope="4.13" offset="54.82" />
+        <Locus name="D12S391" period="4" slope="4.04" offset="76.02" />
+        <Locus name="D19S433" period="4" slope="3.97" offset="171.24" />
+        <Locus name="SE33" period="4" slope="4.05" offset="252.71" />
+    </Kit>
+    <Kit name="PPF">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D3S1358" period="4" slope="4.11" offset="61.12" />
+        <Locus name="D1S1656" period="4" slope="4" offset="121.56" />
+        <Locus name="D2S441" period="4" slope="4.06" offset="176.15" />
+        <Locus name="D10S1248" period="4" slope="3.97" offset="218.41" />
+        <Locus name="D13S317" period="4" slope="4.04" offset="276.52" />
+        <Locus name="Penta E" period="5" slope="4.85" offset="341.11" />
+        <Locus name="D16S539" period="4" slope="4.13" offset="61.26" />
+        <Locus name="D18S51" period="4" slope="4.04" offset="102.4" />
+        <Locus name="D2S1338" period="4" slope="4.04" offset="179.69" />
+        <Locus name="CSF1PO" period="4" slope="4.06" offset="293.66" />
+        <Locus name="Penta D" period="5" slope="5.09" offset="363.15" />
+        <Locus name="TH01" period="4" slope="4.03" offset="58.68" />
+        <Locus name="vWA" period="4" slope="4.01" offset="87.62" />
+        <Locus name="D21S11" period="4" slope="4.03" offset="107.2" />
+        <Locus name="D7S820" period="4" slope="4" offset="249.2" />
+        <Locus name="D5S818" period="4" slope="4.03" offset="297.9" />
+        <Locus name="TPOX" period="4" slope="4.03" offset="377.29" />
+        <Locus name="DYS391" ignore="true" period="4" slope="4" offset="425.08" />
+        <Locus name="D8S1179" period="4" slope="4.11" offset="47.82" />
+        <Locus name="D12S391" period="4" slope="4.03" offset="79.46" />
+        <Locus name="D19S433" period="4" slope="3.97" offset="171.23" />
+        <Locus name="FGA" period="4" slope="3.91" offset="211.7" />
+        <Locus name="D22S1045" period="3" slope="3.09" offset="405.95" />
+    </Kit>
+    <Kit name="SGM Plus">
+        <Locus name="D3S1358" period="4" slope="4" offset="66" />
+        <Locus name="vWA" period="4" slope="4" offset="113" />
+        <Locus name="D16S539" period="4" slope="4" offset="214" />
+        <Locus name="D2S1338" period="4" slope="4" offset="229" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D8S1179" period="4" slope="4" offset="96" />
+        <Locus name="D21S11" period="4" slope="4" offset="91" />
+        <Locus name="D18S51" period="4" slope="4" offset="237" />
+        <Locus name="D19S433" period="4" slope="4" offset="70" />
+        <Locus name="TH01" period="4" slope="4" offset="149" />
+        <Locus name="FGA" period="4" slope="4" offset="147" />
+    </Kit>
+    <Kit name="VFP">
+        <Locus name="D3S1358" period="4" slope="4.09" offset="52.77" />
+        <Locus name="vWA" period="4" slope="4.03" offset="107.39" />
+        <Locus name="D16S539" period="4" slope="4" offset="207.5" />
+        <Locus name="CSF1PO" period="4" slope="4" offset="258.5" />
+        <Locus name="D6S1043" period="4" slope="4.01" offset="307.43" />
+        <Locus name="Yindel" ignore="true" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D8S1179" period="4" slope="4.01" offset="95.04" />
+        <Locus name="D21S11" period="4" slope="4" offset="87.5" />
+        <Locus name="D18S51" period="4" slope="4.02" offset="233.61" />
+        <Locus name="D5S818" period="4" slope="4" offset="342.5" />
+        <Locus name="D2S441" period="4" slope="3.99" offset="51.75" />
+        <Locus name="D19S433" period="4" slope="3.97" offset="121.54" />
+        <Locus name="FGA" period="4" slope="4.05" offset="155.14" />
+        <Locus name="D10S1248" period="4" slope="4" offset="340.08" />
+        <Locus name="D22S1045" period="3" slope="3" offset="64.5" />
+        <Locus name="D1S1656" period="4" slope="4.01" offset="110.62" />
+        <Locus name="D13S317" period="4" slope="4" offset="181.6" />
+        <Locus name="D7S820" period="4" slope="4" offset="236.1" />
+        <Locus name="Penta E" period="5" slope="5.05" offset="285.94" />
+        <Locus name="Penta D" period="5" slope="4.84" offset="67.95" />
+        <Locus name="TH01" period="4" slope="4" offset="154.55" />
+        <Locus name="D12S391" period="4" slope="4" offset="162.9" />
+        <Locus name="D2S1338" period="4" slope="4" offset="237.5" />
+        <Locus name="TPOX" period="4" slope="4.02" offset="345.22" />
+    </Kit>
+    <Kit name="Minifiler">
+        <Locus name="D13S317" period="4" slope="4" offset="71.29" />
+        <Locus name="D7S820" period="4" slope="4.01" offset="126.5" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D2S1338" period="4" slope="4.14" offset="57.19" />
+        <Locus name="D21S11" period="4" slope="3.87" offset="94.89" />
+        <Locus name="D16S539" period="4" slope="4.08" offset="55.29" />
+        <Locus name="D18S51" period="4" slope="4.03" offset="96.18" />
+        <Locus name="CSF1PO" period="4" slope="3.89" offset="63.93" />
+        <Locus name="FGA" period="4" slope="3.8" offset="86.43" />
+    </Kit>
+    <Kit name="SEfiler Plus">
+        <Locus name="D3S1358" period="4" slope="4" offset="61" />
+        <Locus name="vWA" period="4" slope="4" offset="108" />
+        <Locus name="D16S539" period="4" slope="4" offset="208" />
+        <Locus name="D2S1338" period="4" slope="4" offset="228" />
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D8S1179" period="4" slope="4" offset="91" />
+        <Locus name="SE33" period="4" slope="4" offset="184" />
+        <Locus name="D19S433" period="4" slope="4" offset="64" />
+        <Locus name="TH01" period="4" slope="4" offset="144" />
+        <Locus name="FGA" period="4" slope="4" offset="143" />
+        <Locus name="D21S11" period="4" slope="4" offset="89" />
+        <Locus name="D18S51" period="4" slope="4" offset="236" />
+    </Kit>
+    <Kit name="HDplex">
+        <Locus name="AMEL" ignore="true" />
+        <Locus name="D7S1517" period="4" slope="3.92" offset="45.65" />
+        <Locus name="D3S1744" period="4" slope="4.14" offset="110.78" />
+        <Locus name="D12S391" period="4" slope="4.08" offset="151.81" />
+        <Locus name="D2S1360" period="4" slope="4.08" offset="203.44" />
+        <Locus name="D6S474" period="4" slope="4" offset="301.5" />
+        <Locus name="D4S2366" period="4" slope="4.09" offset="391.86" />
+        <Locus name="D8S1132" period="4" slope="3.93" offset="68.58" />
+        <Locus name="D5S2500" period="4" slope="4.02" offset="151.64" />
+        <Locus name="D18S51" period="4" slope="3.86" offset="210.42" />
+        <Locus name="D21S2055" period="4" slope="4.06" offset="284.16" />
+        <Locus name="D10S2325" period="5" slope="4.91" offset="91.23" />
+        <Locus name="SE33" period="4" slope="3.88" offset="180.14" />
+    </Kit>
+</KitProperties>
